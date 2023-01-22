@@ -61,8 +61,6 @@ h1 {
 }
 
 .checked {
-  /* width: 20px;
-  height: 20px; */
   background-color: #147373;
   text-decoration: line-through;
   transform: rotateX(360deg);
@@ -78,7 +76,6 @@ li {
   color: rgb(41, 41, 41);
   font-weight: bold;
   margin-bottom: 1rem;
-  /* align-items: center; */
   justify-content: space-between;
   transition: all 0.5s;
 }
@@ -87,6 +84,3 @@ li {
   padding: 5px;
 }
 
-/* .iframe{
-  display: none;
-} */

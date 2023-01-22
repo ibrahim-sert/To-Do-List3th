@@ -16,24 +16,15 @@ sec.addEventListener("click", (e) => {
       const div = document.querySelector(".iframe");
       div.innerHTML = `<div style="width:480px"><iframe allow="fullscreen" frameBorder="0" height="480" src="https://giphy.com/embed/r8NV9HQpuhDcLDAP2I/video" width="480"></iframe></div>`;
     }
-
-    //media.giphy.com/media/sDFKKBDsuroCjFDKUy/giphy-downsized-large.gif
-
-    https: console.log(sum);
-    //create check icon
     const icon = document.createElement("i");
     icon.setAttribute("class", "fas fa-check");
     li.append(icon);
-
     const p = document.createElement("p");
     p.innerText = input.value;
     li.appendChild(p);
-
     const removeIcon = document.createElement("i");
     removeIcon.setAttribute("class", "fas fa-trash");
     li.append(removeIcon);
-
-    // todoUl.append(li);
     ul.prepend(li);
   }
 });

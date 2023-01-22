@@ -72,15 +72,22 @@ p {
 }
 li {
   display: flex;
-  background-color: lightgrey;
+  background-color: #84d3d3;
   color: rgb(41, 41, 41);
   font-weight: bold;
   margin-bottom: 1rem;
   justify-content: space-between;
   transition: all 0.5s;
+  line-height: 2rem;
 }
 .fa-trash,
 .fa-check {
-  padding: 5px;
+  padding: 10px 5px 5px 5px;
 }
 
+.fa-trash:hover,
+.fa-check:hover {
+  cursor: pointer;
+  transform: rotateY(360deg);
+  transition: 1.5s;
+}
